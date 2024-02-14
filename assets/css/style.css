@@ -48,6 +48,12 @@ nav a {
     margin-right: 25px;
 }
 
+nav a.active {
+    background-color: #556b2f	
+    ; /* Highlight color for the active link */
+    color: #fff; /* Text color for the active link */
+  }
+
 nav a:hover {
     color: darkred;
 }

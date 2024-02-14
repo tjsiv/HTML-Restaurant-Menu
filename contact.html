@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Link to the icons aswell (These use a links in the body)-->
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
+
 </head>
 <body>
     <!-- CONTACT PAGE -->
     <!-- TODO: Navbar here -->
+    <nav class="nav-links">
+        <ul class = "list-link">
+            <li><a href="menu.html">MENU</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a class="active" href="contact.html">CONTACT</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
+      </nav>
     <!-- TODO: Banner Image here-->
+    <img id="banner" src="assets/images/banner.png" alt="Banner Logo">
+
     <main>
         <h2>Hours of Operation</h2>
         <p>
@@ -18,9 +36,19 @@
         <p>
             <strong>Saturday-Sunday:</strong> 1:00pm-10:00pm
         </p>
+        <!--MAke sure to check icons for contact section-->
         <h2>Contact Info</h2>
         <p>
-            <strong>Phone Number:</strong> TBD
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <strong>Phone Number:</strong> 334-946-7292 
+        </p>
+        <p>
+            <i class="fa fa-map" aria-hidden="true"></i>
+            <strong>Location:</strong> 789 Oak Lane
+        </p>
+        <p>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <strong>E-mail:</strong> HThaiML@hotmail.com 
         </p>
     </main>
 </body>
